@@ -1,13 +1,12 @@
-<!-- Copyright (c) 2021 Qualcomm Technologies, Inc.
+<!-- Copyright (c) 2023 Qualcomm Technologies, Inc.
 All Rights Reserved.
 Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
 <manifest version="1.0" type="device">
     <!-- QConfig HAL Service -->
-    <hal format="hidl">
+    <hal format="aidl">
         <name>vendor.qti.hardware.qconfig</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1</version>
         <interface>
             <name>IQConfig</name>
             <instance>default</instance>

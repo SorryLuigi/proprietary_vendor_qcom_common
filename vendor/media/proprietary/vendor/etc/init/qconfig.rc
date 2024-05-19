@@ -1,4 +1,4 @@
- # Copyright (c) 2020 Qualcomm Technologies, Inc.
+ # Copyright (c) 2020, 2023 Qualcomm Technologies, Inc.
  # All Rights Reserved.
  # Confidential and Proprietary - Qualcomm Technologies, Inc.
 
@@ -7,11 +7,11 @@ service vendor.qconfig /vendor/bin/hw/qconfigservice
     user media
     group camera
 
-    # HIDL interfaces
-    interface vendor.qti.hardware.qconfig@1.0::IQConfig default
+    # AIDL interfaces
+    interface aidl vendor.qti.hardware.qconfig.IQConfig/default
 
-    # don't auto restart
-    oneshot
+    # auto restart (uncomment below to disable rebooting automatically)
+    # oneshot
 
     # start only when requested (uncomment below to disable service at boot)
     # disabled

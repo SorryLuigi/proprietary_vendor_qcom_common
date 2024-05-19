@@ -29,8 +29,6 @@ PRODUCT_PACKAGES += \
     libqc2audio_platform \
     libqc2audio_swaudiocodec \
     libqc2audio_utils \
-    libqc2colorconvertfilter \
-    libqc2filter \
     libqc2vppfilter \
     libqcodec2_base \
     libqcodec2_basecodec \
@@ -38,7 +36,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_filterbase \
     libqcodec2_hooks \
     libqcodec2_mockfilter \
-    libqcodec2_mockqc2filter \
     libqcodec2_platform \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
@@ -46,13 +43,14 @@ PRODUCT_PACKAGES += \
     libvideotxr \
     libvideoutils \
     qti.video.utils.videobufferlayout \
-    vendor.qti.hardware.qconfig@1.0 \
+    vendor.qti.hardware.qconfig-V1-ndk \
+    vendor.qti.hardware.vpp-V1-ndk \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
-    vendor.qti.hardware.qconfig@1.0-service.xml \
+    vendor.qti.hardware.qconfig-service.xml \
     qconfigservice \
     vendor.qti.media.c2@1.0-service \
     vendor.qti.media.c2audio@1.0-service
